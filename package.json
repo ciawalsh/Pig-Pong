@@ -12,14 +12,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/matteomanzo/PigPong.git"
+    "url": "https://github.com/ciawalsh/Pig-Pong.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/matteomanzo/PigPong/issues"
+    "url": "https://github.com/ciawalsh/Pig-Pong/issues"
   },
-  "homepage": "https://github.com/matteomanzo/PigPong",
+  "homepage": "https://github.com/ciawalsh/Pig-Pong",
   "devDependencies": {
     "casperjs": "^1.1.0-beta3",
     "chai": "^1.10.0",
@@ -37,7 +37,6 @@
     "body-parser": "^1.11.0",
     "ejs": "^2.2.4",
     "express": "^4.11.2",
-    "phantomjs": "^1.9.15",
     "phaser": "^2.2.2"
   }
 }

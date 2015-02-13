@@ -4,4 +4,4 @@
 =============================================================
 Makers Week 8 Makerthon
 
-Heruko link - http://pig-pong.heroku.app
+Heruko link - https://pig-pong.herokuapp.com/

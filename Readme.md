@@ -1,25 +1,22 @@
-![Alt text](public/image/logo.png "Optional title")
-2 
-3 Heroku (live)
-4 ------
-5 [Pig-Pong]: https://zombie-pig-pong.herokuapp.com/
-6 
-7 [Pig-Pong]
-8 
-9 Technologies used
-10  ----------
-11  * Javascript
-12  * JQuery
-13  * Node
-14  * Casper
-15  * Html
-16  * CSS
-17  * Sublime Text
-18  * Git
-19  * Heroku
-20  
-21  How to clone this repo
-22  ----
-23  ```sh
-24  git clone https://github.com/IndiaDearlove/pig-pong.git
-25  ```
+![image](https://github.com/ciawalsh/Pig-Pong/blob/master/public/image/logo.png?raw=true)
+=============================================================
+[![Code Climate](https://codeclimate.com/github/ciawalsh/Pig-Pong/badges/gpa.svg)](https://codeclimate.com/github/ciawalsh/Pig-Pong) [![Test Coverage](https://codeclimate.com/github/matteomanzo/PigPong/badges/coverage.svg)](https://codeclimate.com/github/matteomanzo/PigPong)
+=============================================================
+## Synopsis
+
+Created a small reaction HTML5 game in JavaScript and hosted with Node.
+
+## Link to Site
+
+- [PIG-PONG](https://pig-pong.herokuapp.com/)
+
+## Technologies Used
+
+- JavaScript
+- Node
+
+## Job List
+
+- [x] Create a Homepage with Name Entry
+- [x] Create a Game Canvas with Working Parts
+- [x] User Friendly Experience

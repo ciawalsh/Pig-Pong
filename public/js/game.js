@@ -32,7 +32,6 @@ function create() {
   group.physicsBodyType = Phaser.Physics.ARCADE;
   game.time.events.loop(5000, createBall, this);
 
-
   createBall();
   createPlayer();
 

@@ -6,10 +6,11 @@ var game = new Phaser.Game(1000, 500, Phaser.AUTO, 'game-mainpage', { preload: p
 
 function preload() {
 
+  game.load.image('background', 'image/earth.png');
   game.load.image('farmer', 'image/farmer.png');
   game.load.image('flyer', 'image/zombiepig.jpg');
   game.load.spritesheet('explosion', 'image/explosion.png', 64, 64, 23);
-  game.load.audio('ex_sound', 'audio/explosion.mp3');
+  game.load.audio('ex_sound', 'audio/death.mp3');
 
 }
 
@@ -25,6 +26,7 @@ var highscore = 0;
 
 function create() {
 
+  background = game.add.tileSprite(0,0,1000,500, 'background');
   game.physics.startSystem(Phaser.Physics.ARCADE);
 
   group = game.add.group();

@@ -37,6 +37,7 @@
     "body-parser": "^1.11.0",
     "ejs": "^2.2.4",
     "express": "^4.11.2",
+    "express-ejs-layouts": "^1.1.0",
     "phaser": "^2.2.2"
   }
 }

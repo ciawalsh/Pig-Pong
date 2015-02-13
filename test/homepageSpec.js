@@ -1,6 +1,6 @@
 describe('Homepage', function() {
 
-	var host = 'http://localhost:9999'
+	var host = 'http://localhost:3000'
 
 	before(function() {
 		casper.start(host);

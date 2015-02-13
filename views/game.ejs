@@ -22,11 +22,15 @@
    function deathLol(playerScore) {
       var score = playerScore
       console.log(playerScore)
-    
+
       if (dead = true && score != undefined) {
           $('#score').text(score);
         }
-  } 
+      if (highscore < score) {
+        highscore = score;
+        $('#highscore').text(score);
+      }    
+    } 
   </script>
 
 <script src="/eureca.js"></script>

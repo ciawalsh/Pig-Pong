@@ -3,6 +3,9 @@
   <head>
     <link rel="stylesheet" type="text/css" href="/css/stylesheet.css">
      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+    <audio autoplay loop>
+       <source src="audio/game.mp3" type="audio/mpeg">
+    </audio>
   </head>
   <body>
     <div class="container">
@@ -16,27 +19,35 @@
       </div>
     </div>  
 
-        <script>
-         function deathLol(playerScore) {
-            var score = playerScore
-            console.log(playerScore)
+    <script>
 
-          if (dead = true && score != undefined) {
-              $('#score').text(score);
-            }
-          if (highscore < score) {
-            highscore = score;
-            $('#highscore').text(score);
-          }    
-        } 
-      </script>
+     function deathLol(playerScore) {
+        var score = playerScore
+        console.log(playerScore)
+      
+      if (dead = true && score != undefined) {
+          audio();
+          $('#score').text(score);
+        }
+
+      if (highscore < score) {
+          highscore = score;
+          $('#highscore').text(score);
+        }    
+
+    } 
+      function audio() {
+
+          ex_sound = game.add.audio('ex_sound');
+          ex_sound.play();
+
+        }
+    </script>
 
   <script src="/eureca.js"></script>
-
   <script src="https://code.jquery.com/jquery-1.11.2.js"></script>
   <script src="//cdn.jsdelivr.net/phaser/2.2.2/phaser.js"></script>
   <script type="text/javascript" src="js/game.js"></script>
-
      
 </body>
 </html>

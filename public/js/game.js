@@ -39,15 +39,6 @@ function create() {
   timer = game.time.create(true);
   timer.start();
 
-  explosion = game.add.group();
-
-  for (var i = 0; i < 10; i++)
-  {
-      var explosionAnimation = explosion.create(0, 0, 'explosion', [0], false);
-      explosionAnimation.anchor.setTo(0.5, 0.5);
-      explosionAnimation.animations.add('explosion');
-  }
-
   //Explosion
 
   explosion = game.add.group();
@@ -143,7 +134,7 @@ function destroySprite() {
 function getScore(playerScore) {
   console.log(playerScore);
   deathLol(playerScore);
-  group.destroy()
+  group.destroy();
   game.time.reset();
   create();
 }

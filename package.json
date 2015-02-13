@@ -40,12 +40,7 @@
     "engine.io": "^1.5.1",
     "eureca.io": "^0.6.2",
     "express": "^4.11.2",
-<<<<<<< HEAD
     "express-ejs-layouts": "^1.1.0",
-    "phaser": "^2.2.2"
-=======
     "phaser": "^2.2.2",
-    "express-ejs-layouts": "^1.1.0"
->>>>>>> 0263bef1f578d7541c0c7ca81329a08b2c4b89f8
   }
 }
